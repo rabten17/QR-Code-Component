@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@400;700&display=swap');
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
+}
+
+.card {
+  max-width: 375px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.17);
+
+  &__image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  &__content {
+    text-align: center;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 15px;
+    color: hsl(218, 44%, 22%);
+  }
+  &__description {
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+  }
+}

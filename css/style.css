@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@400;700&display=swap");
+body {
+  background-color: #d6e2f0;
+  font-family: 'Outfit', sans-serif; }
+
+.card {
+  max-width: 375px;
+  background-color: white;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.17); }
+  .card__image {
+    width: 100%;
+    border-radius: 10px; }
+  .card__content {
+    text-align: center; }
+  .card__title {
+    font-weight: 700;
+    font-size: 15px;
+    color: #1f3251; }
+  .card__description {
+    font-weight: 400;
+    font-size: 15px;
+    color: #7b879d; }
